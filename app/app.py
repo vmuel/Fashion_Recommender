@@ -64,7 +64,7 @@ if 'initialization' not in st.session_state:
         key='coats')
 
     Menswear_coats_dic = {'1A':119, '1B':885, '1C':329, '2A':886, '2B':1166, '2C':117, '3A':29, '3B':519, '3C':557}
-    Womenswear_coats_dic = {'1A':817, '2B': 126, '3A': 1194, '1B': 3488, '2B': 1200, '3B': 337, '1C': 1678, '2C': 1005, '3C': 202}
+    Womenswear_coats_dic = {'1A':817, '2A': 126, '3A': 1194, '1B': 3488, '2B': 1200, '3B': 337, '1C': 1678, '2C': 1005, '3C': 202}
     coats_id = []
     if option == 'Menswear':
         coats_dic = Menswear_coats_dic

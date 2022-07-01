@@ -1,7 +1,7 @@
 # Content-based fashion recommender system
 
 Recommender system based on the cosine similarity between the embeddings of images of clothes extracted from a ResNet-50 and a custom CNN model trained to classify the style of clothes.
-Url: https://fashion-recommender-cnn.herokuapp.com/ (if available)
+Url: https://fashion-recommender-embeddings.herokuapp.com/ (might return an error if not pinged recently)
 
 ## Source of the data
 

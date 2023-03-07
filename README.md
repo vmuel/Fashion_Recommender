@@ -16,6 +16,9 @@ I used the embeddings extracted from a ResNet-5O model (70% of the weight of rec
 The models were designed and trained in Jupyter Notebook, and the notebooks for the 4 models (ResNet and Custom for womenswear & menswear each) can be found in /deep_learning_notebooks.
 An additional notebook, used to extract the embeddings and to prepare the data to make possible sorting by budget, size & category (thanks to a computer vision classifying algorithm) can also be found in this folder -even though this latter functionality is not acessible in the web app.
 
+The models were inspired by the following publication:
+Liu, L., Silva, I., Nogueira, P., Magalhães, A., Martins, E. (2021). User Aesthetics Identification for Fashion Recommendations. In: Dokoohaki, N., Jaradat, S., Corona Pampín, H.J., Shirvany, R. (eds) Recommender Systems in Fashion and Retail. Lecture Notes in Electrical Engineering, vol 734. Springer, Cham. https://doi.org/10.1007/978-3-030-66103-8_3
+
 ## Algorithm
 The algorithm makes recommendation based on the items liked by the user.
 More specifically, for each item liked, the algorithm returns a list of recommendations ranked by how similar their style is to the item liked.
